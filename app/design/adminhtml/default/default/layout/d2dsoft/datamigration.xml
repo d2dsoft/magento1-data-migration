@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout version="1.0">
+
+    <adminhtml_dsdm_migration_index>
+        <reference name="head">
+            <action method="addCss"><stylesheet>d2dsoft/datamigration/css/select2.min.css</stylesheet></action>
+            <action method="addCss"><stylesheet>d2dsoft/datamigration/css/style.css</stylesheet></action>
+            <action method="addCss"><stylesheet>d2dsoft/datamigration/css/custom.css</stylesheet></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.form.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/select2.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.validate.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.extend.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.migration.js</script></action>
+        </reference>
+        <reference name="content">
+            <block type="dsdm/adminhtml_index" name="dsdm.index" template="d2dsoft/datamigration/index.phtml"/>
+        </reference>
+    </adminhtml_dsdm_migration_index>
+
+    <adminhtml_dsdm_migration_setting>
+        <reference name="head">
+            <action method="addCss"><stylesheet>d2dsoft/datamigration/css/select2.min.css</stylesheet></action>
+            <action method="addCss"><stylesheet>d2dsoft/datamigration/css/style.css</stylesheet></action>
+            <action method="addCss"><stylesheet>d2dsoft/datamigration/css/custom.css</stylesheet></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.form.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/select2.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.validate.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.extend.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.migration.js</script></action>
+        </reference>
+        <reference name="content">
+            <block type="dsdm/adminhtml_index" name="dsdm.setting" template="d2dsoft/datamigration/setting.phtml"/>
+        </reference>
+    </adminhtml_dsdm_migration_setting>
+
+    <adminhtml_dsdm_migration_license>
+        <reference name="head">
+            <action method="addCss"><stylesheet>d2dsoft/datamigration/css/select2.min.css</stylesheet></action>
+            <action method="addCss"><stylesheet>d2dsoft/datamigration/css/style.css</stylesheet></action>
+            <action method="addCss"><stylesheet>d2dsoft/datamigration/css/custom.css</stylesheet></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.form.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/select2.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.validate.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.extend.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>d2dsoft/datamigration/js/jquery.migration.js</script></action>
+        </reference>
+
+        <reference name="content">
+            <block type="dsdm/adminhtml_index" name="dsdm.license" template="d2dsoft/datamigration/license.phtml"/>
+        </reference>
+
+    </adminhtml_dsdm_migration_license>
+</layout>

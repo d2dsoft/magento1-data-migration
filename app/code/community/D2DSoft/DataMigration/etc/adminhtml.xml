@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+    <menu>
+        <d2dsoft translate="title">
+            <title>D2dSoft</title>
+            <sort_order>90</sort_order>
+            <children>
+                <datamigration translate="title">
+                    <title>Data Migration</title>
+                    <action>adminhtml/dsdm_migration/index</action>
+                    <sort_order>0</sort_order>
+                </datamigration>
+            </children>
+        </d2dsoft>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <d2dsoft translate="title">
+                        <title>D2dSoft</title>
+                        <sort_order>90</sort_order>
+                        <children>
+                            <datamigration translate="title">
+                                <title>Data Migration</title>
+                                <sort_order>0</sort_order>
+                            </datamigration>
+                        </children>
+                    </d2dsoft>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

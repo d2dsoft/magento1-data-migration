@@ -1,0 +1,30 @@
+<?php $jsConfig = $this->getJsConfig() ?>
+<div id="migration-page">
+
+    <div class="page-header">
+        <div class="current-title title">Migration</div>
+        <div class="redirect-icon"><a href="<?= $this->getUrl('adminhtml/dsdm_migration/setting') ?>" title="Setting"><span class="icon-setting"></span></a></div>
+    </div>
+
+    <?= $this->getHtmlContent() ?>
+
+</div>
+
+<script type="text/javascript">
+    (function($){
+        $.MigrationData({
+            <?php foreach($jsConfig as $key => $value) { ?>
+                <?php echo $key ?>: '<?php echo $value ?>',
+            <?php } ?>
+            url: '<?= $this->getUrl('adminhtml/dsdm_migration/ajax') ?>',
+            request_post: {
+                action_type: 'import',
+                form_key: '<?= $this->getFormKey() ?>'
+            },
+            request_download: {
+                action_type: 'download',
+                form_key: '<?= $this->getFormKey() ?>'
+            }
+        });
+    })(jds);
+</script>

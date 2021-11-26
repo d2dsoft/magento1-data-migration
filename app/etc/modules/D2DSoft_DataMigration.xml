@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <D2DSoft_DataMigration>
+            <active>true</active>
+            <codePool>community</codePool>
+        </D2DSoft_DataMigration>
+    </modules>
+</config>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+
+    <modules>
+        <D2DSoft_DataMigration>
+            <version>1.0.0</version>
+        </D2DSoft_DataMigration>
+    </modules>
+
+    <global>
+        <blocks>
+            <dsdm>
+                <class>D2DSoft_DataMigration_Block</class>
+            </dsdm>
+        </blocks>
+        <helpers>
+            <dsdm>
+                <class>D2DSoft_DataMigration_Helper</class>
+            </dsdm>
+        </helpers>
+        <models>
+            <dsdm>
+                <class>D2DSoft_DataMigration_Model</class>
+            </dsdm>
+        </models>
+    </global>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <D2DSoft_DataMigration before="Mage_Adminhtml">D2DSoft_DataMigration_Adminhtml</D2DSoft_DataMigration>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <D2DSoft_DataMigration>
+                    <files>
+                        <default>D2DSoft_DataMigration.csv</default>
+                    </files>
+                </D2DSoft_DataMigration>
+            </modules>
+        </translate>
+
+        <layout>
+            <updates>
+                <d2dsoft_datamigration>
+                    <file>d2dsoft/datamigration.xml</file>
+                </d2dsoft_datamigration>
+            </updates>
+        </layout>
+
+    </adminhtml>
+</config>
