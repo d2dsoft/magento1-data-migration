@@ -9,8 +9,10 @@
 - [HikaShop to Magento Migration](https://d2d-soft.com/magento-migration/449-1842-hikashop-to-magento-migration-extension.html#/72-entities-1000)
 - [J2Store to Magento Migration](https://d2d-soft.com/magento-migration/492-2037-j2store-to-magento-migration-extension.html#/72-entities-1000)
 - [JigoShop to Magento Migration](https://d2d-soft.com/magento-migration/543-2272-jigoshop-to-magento-2-migration-extension.html#/72-entities-1000)
+- [JoomShopping to Magento Migration](https://d2d-soft.com/magento-migration/594-2517-joomshopping-to-magento-migration-extension.html#/72-entities-1000)
 - [Loaded Commerce to Magento Migration](https://d2d-soft.com/magento-migration/35-97-loaded-to-magento-migration-extension.html)
 - [Magento to Magento Migration](https://d2d-soft.com/magento-migration/25-84-magento-to-magento-migration.html)
+- [MarketPress to Magento Migration](https://d2d-soft.com/magento-migration/569-2397-marketpress-to-magento-migration-extension.html#/72-entities-1000)
 - [OpenCart to Magento Migration](https://d2d-soft.com/magento-migration/37-102-opencart-to-magento-migration-extension.html)
 - [osCommerce to Magento Migration](https://d2d-soft.com/magento-migration/38-107-oscommerce-to-magento-migration-extension.html)
 - [OXID-eShop to Magento Migration](https://d2d-soft.com/magento-migration/39-112-oxid-eshop-to-magento-migration-extension.html)
@@ -31,8 +33,10 @@
 - [HikaShop](https://www.hikashop.com/)
 - [J2Store](https://www.j2store.org/)
 - JigoShop
+- [JoomShopping](https://extensions.joomla.org/extension/joomshopping/)
 - [Loaded Commerce](https://loadedcommerce.com/)
 - [Magento](https://magento.com/)
+- MarketPress
 - [OpenCart](https://www.opencart.com/)
 - [osCommerce](https://www.oscommerce.com/)
 - [OXID-eShop](https://www.oxid-esales.com)
@@ -54,3 +58,8 @@
 ## License
 
 [AFL](http://d2d-soft.com/license/AFL.txt)
+
+## Contact US
+Website: https://d2d-soft.com/ \
+Email: contact@d2d-soft.com \
+Youtube: https://www.youtube.com/@d2dsoft 
